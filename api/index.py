@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 title = "15C11E"
 secretkey = "UMNH1IISP6OTNG63CWESQXSG9TBEHE9WTOIFQARQHXR63KPYF8"
-applab = "OC|30104788022470243|9b5f59730c55096c12bc926afb87a604"
+APIKey = "OC|30104788022470243|9b5f59730c55096c12bc926afb87a604"
 
 playfab_cache = {}
 
