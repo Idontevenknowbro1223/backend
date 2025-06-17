@@ -4,8 +4,8 @@ from flask import Flask, jsonify, request
 
 class GameInfo:
     def __init__(self):
-        self.TitleId : str = "FBF9A"
-        self.SecretKey : str = "3MQ4KT6KQHUD15WS8FREBDYYFI7Q8AESGQ66R481HHUOZPPS3Q"
+        self.TitleId : str = "FFC4D"
+        self.SecretKey : str = "DF96MAPHZ54OWSP8SPX98NTHNGM77A3QARRUX5NZFWJQF35CDT"
         self.ApiKey : str = "OC|30104788022470243|9b5f59730c55096c12bc926afb87a604"
 
     def get_auth_headers(self):
