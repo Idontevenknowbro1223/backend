@@ -6,7 +6,7 @@ class GameInfo:
     def __init__(self):
         self.TitleId : str = "FFC4D"
         self.SecretKey : str = "DF96MAPHZ54OWSP8SPX98NTHNGM77A3QARRUX5NZFWJQF35CDT"
-        self.ApiKey : str = "OC|30104788022470243|9b5f59730c55096c12bc926afb87a604"
+        self.ApiKey : str = "OC|10035246149890416|8965b0210a20af40c1b2645ba4fa7380"
 
     def get_auth_headers(self):
         return {
